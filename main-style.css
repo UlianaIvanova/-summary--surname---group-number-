@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'RobotoMono';
+    src: url('fonts/RobotoMono-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Regular.ttf');
+}
+
+.aa {
+    background: linear-gradient(#74e8df, #d7f167, #769ced);
+  
+    border: 2px solid #ff9900; 
+    box-shadow: 0 0 5px #00ccff; 
+    outline: 1px solid #9900ff; 
+  }
+
+  .aa {
+    display: inline-block;
+  }
+
+  body {
+    margin: 0; 
+    font-size: 18px; 
+    font-weight: 400;
+    line-height: 1.5; 
+    color: #212529;
+    background: linear-gradient(#d0f3ac, #eaca82, #9dc9f9);
+    margin: 0%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529; 
+  }
+
+  .header {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em; 
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px; 
+  }
+
+  .aa h1 {
+    font-family: Montserrat; 
+    font-size: 1.5em; 
+    text-align: left;
+    padding: 6px 10px; 
+  }
+  
+  .aa h2 {
+    font-family: Montserrat;
+    font-size: inherit; 
+    text-align: left; 
+    padding: 6px 10px; 
+  }
+  .aa {
+    height: 1180px; 
+    width: 1640px;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+  }
+  
+  .aa > div {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px; 
+  }
+  
+  .aa {
+    height: 580px;
+    width: 530px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .aa > div {
+    width: calc(33.33% - 20px);
+    height: 100%;
+    margin-bottom: 20px;
+    border-radius: 24px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+    overflow: hidden;
+  }
+  
+  .aa > div:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .aa > div h1 {
+    font-family: inherit;
+    font-size: inherit;
+  }
+  
+  .aa > div a {
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .aa > div a:hover {
+    color: #ffffff;
+  }
+  
+  .aa > div:nth-child(3n + 1) {
+    background-color: #ff6347;
+  }
+  
+  .aa > div:nth-child(3n + 2) {
+    background-color: #4169e1;
+  }
+  
+  .aa > div:nth-child(3n) {
+    background-color: #90ee90;
+  }
+  
+  .aa > div > img {
+    max-height: 20%;
+  }
+  
+  .aa > div p {
+    font-weight: normal;
+  }
+  .aa a {
+    color: black; 
+    text-decoration: none; 
+  }
+  
+  .aa a:hover {
+    color: white; 
+  }
+
+  .aa {
+    font-family: "Roboto", sans-serif; 
+    font-weight: normal; 
+    font-size: inherit; 
+    line-height: 1.7; 
+    margin-bottom: 16px; 
+    margin-top: 0; 
+    margin-bottom: 0; 
+  }
+  
+  .aa strong {
+    font-weight: bold; 
+  }
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+header {
+    font-family: 'Roboto';
+    font-size:23 px ;
+}
+img {
+    width: 50px;
+    height: 50px;
+}
+
+.conteiner {
+    columns: 5;
+}
+.aa{
+    padding: 10px;
+}
