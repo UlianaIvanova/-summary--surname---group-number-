@@ -88,6 +88,7 @@ git checkout main
 Список команд:
 
 ssh-keygen -t rsa   - создает SSH ключ, который нужно ввести в настройках GitHub.
+получить ключ  cat .ssh/id_rsa.pub
 git clone [ssh-ключ] - клонировать репозиторий и создать папку с ее названием.
 git init - создать ЛОКАЛЬНЫЙ репозиторий
 git add [название файла] - проиндексировать/выделить файл или папку.
@@ -111,8 +112,38 @@ git log - посмотреть логи.
 
 https://selectel.ru/blog/tutorials/git-fetch-command-how-is-it-different-from-git-pull/
 
+что делаем с самого начала:
 
+ssh-keygen -t rsa   - создает SSH ключ, который нужно ввести в настройках GitHub.
+получить ключ  cat .ssh/id_rsa.pub
+вставляем ssh в гит 
+дальше отправят ссылку синхронизироваться с гитом 
+никак не менять файлы кроме джс
+клонируем репрезиторий через ssh
+git clonr "ssh сылка"
+команда ls где все файлы перейти в файл названия гита
+cd имя свое 
+instal
 make test - проверка всего теста   
 make lint - проверка линтера    
 make lint-fix - автоматическое исправление линтера
+make instal
+code index.js
+==создать 5 пустышек 
+=function
+или через const
+экспорт функции export{названия через запятую}
+не забыть про ctrl s 
+make lint 
+make lint-fix
+make test 
+return 
+git add -A
+git commit -m ""
+git push -u origin "название"
+
+--что нам дано? какие свойсва?
+--что от меня хотят?
+--как мне это сделать?
+
 
