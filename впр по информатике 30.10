@@ -110,3 +110,9 @@ git log - посмотреть логи.
 Сам не понял, поэтому вот ссылка с примерным описанием, что такое git fetch 
 
 https://selectel.ru/blog/tutorials/git-fetch-command-how-is-it-different-from-git-pull/
+
+
+make test - проверка всего теста   
+make lint - проверка линтера    
+make lint-fix - автоматическое исправление линтера
+
